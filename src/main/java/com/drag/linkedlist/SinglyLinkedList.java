@@ -64,7 +64,7 @@ public class SinglyLinkedList {
         while (isNeedAnotherOneCycle) {
             isNeedAnotherOneCycle = false;
             if (first.getValue() > value) {
-                if (first == last) {
+                if (count == 1) {
                     removeLast();
                     return;
                 } else {
