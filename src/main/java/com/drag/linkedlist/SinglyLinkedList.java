@@ -1,4 +1,4 @@
-package main.java.com.drag.linkedlist;
+package com.drag.linkedlist;
 
 public class SinglyLinkedList {
     private Item first;
