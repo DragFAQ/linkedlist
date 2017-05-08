@@ -9,6 +9,12 @@ public class SinglyLinkedList {
         count = 0;
     }
 
+    public SinglyLinkedList(Item first, Item last, int count) {
+        this.first = first;
+        this.last = last;
+        this.count = count;
+    }
+
     public Item getFirst() {
         return first;
     }
