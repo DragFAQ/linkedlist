@@ -15,7 +15,7 @@ public class ListTestData {
 
     public static final ListMatcher MATCHER = new ListMatcher();
 
-    public static void init() {
+    public static void initTestData() {
         ITEM1.setNext(ITEM2);
         ITEM2.setNext(ITEM3);
         ITEM3.setNext(ITEM4);

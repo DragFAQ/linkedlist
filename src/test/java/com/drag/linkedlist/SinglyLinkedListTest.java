@@ -11,7 +11,7 @@ public class SinglyLinkedListTest {
 
     @Before
     public void setUp() throws Exception {
-        ListTestData.init();
+        initTestData();
     }
 
     @Test
